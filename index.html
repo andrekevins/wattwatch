@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#08090a" />
+    <meta name="description" content="WattWatch — energy, under control." />
+    <title>WattWatch — Energy, under control.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="hero" id="top">
+      <div class="atmosphere" aria-hidden="true"><div class="noise"></div><div class="grid"></div><div class="glow glow-one"></div><div class="glow glow-two"></div></div>
+      <header class="site-header">
+        <a class="wordmark" href="#top" aria-label="WattWatch home">Watt<span>Watch</span></a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#product">Product</a>
+          <a href="#technology">Technology</a>
+          <a href="#about">About</a>
+        </nav>
+
+        <a class="header-cta login-link" href="#login">
+          <span>Login</span>
+        </a>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><i></i><i></i></button>
+      </header>
+      <nav class="mobile-nav" id="mobile-menu" aria-label="Mobile navigation">
+        <a href="#product">Product</a>
+        <a href="#technology">Technology</a>
+        <a href="#about">About</a>
+        <a href="#login">Login</a>
+      </nav>
+      <section class="copy" aria-labelledby="hero-title">
+        <p class="kicker"><span></span> Smart energy monitoring</p>
+        <h1 id="hero-title">Energy, <em>under<br />control.</em></h1>
+        <p class="lede">See what uses energy. Understand why.<br />Take control.</p>
+        <a class="discover" href="#explore">
+          <span>Discover WattWatch</span>
+          <i class="discover-arrow" aria-hidden="true"></i>
+        </a>
+      </section>
+
+      <section class="object-scene" id="product" aria-label="WattWatch product visual placeholder">
+        <div class="coordinate coordinate-x" aria-hidden="true"></div><div class="coordinate coordinate-y" aria-hidden="true"></div>
+        <div class="pane pane-a"></div><div class="pane pane-b"></div><div class="pane pane-c"></div><div class="scanline" aria-hidden="true"></div>
+        <div class="object-shadow"></div>
+        <div class="power-strip">
+          <div class="strip-face">
+            <div class="strip-brand">WattWatch</div><div class="strip-led"><span></span> online</div>
+            <div class="sockets" aria-hidden="true"><div class="socket"><b></b><b></b><i></i></div><div class="socket"><b></b><b></b><i></i></div><div class="socket"><b></b><b></b><i></i></div></div>
+            <div class="strip-meta"><span>ENERGY MONITOR</span><span>3 × CONTROLLED</span></div>
+          </div>
+        </div>
+        <div class="product-caption">
+          <span>*Scroll down to see the actual WattWatch</span>
+        </div>
+        <div class="daily-visibility">DESIGNED TO MAKE DAILY ENERGY VISIBLE.</div>
+      </section>
+      <a class="scroll-indicator" href="#actual-product" aria-label="Scroll to view the actual WattWatch">
+        Scroll to view
+      </a>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
