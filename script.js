@@ -1,3 +1,5 @@
+console.log("WattWatch Firebase:", window.wattwatchAuth);
+
 (() => {
   const root = document.documentElement;
   const scene = document.querySelector('.object-scene');
